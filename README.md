@@ -10,6 +10,7 @@ Integrate iTerm with Alfred
 ```applescript
 on alfred_script(q)
 	tell application "iTerm" to launch
+	tell application "iTerm" to activate
 
 	# Count the number of windows active
 	set windowCount to 0
